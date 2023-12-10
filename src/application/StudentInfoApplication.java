@@ -33,11 +33,11 @@ public class StudentInfoApplication {
 	//학생 생성
 	public void createStudent() {
 		//학생 생성
-		Student student1 = new Student(181213, "박지은", korean);
-		Student student2 = new Student(181518, "차슬기", math);
-		Student student3 = new Student(171230, "이현욱", korean);
-		Student student4 = new Student(171255, "임지연", korean);
-		Student student5 = new Student(171590, "김재현", math);
+		Student student1 = new Student(181213, "이지은", korean);
+		Student student2 = new Student(181518, "장원영", math);
+		Student student3 = new Student(171230, "원빈", korean);
+		Student student4 = new Student(171255, "하니", korean);
+		Student student5 = new Student(171590, "정성찬", math);
 		
 		//학교에 등록
 		goodSchool.addStudent(student1);
